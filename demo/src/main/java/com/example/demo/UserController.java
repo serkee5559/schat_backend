@@ -13,8 +13,6 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
-//@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
-@CrossOrigin(origins = {"https://schat-iota.vercel.app"})
 public class UserController {
 
     // DB와 소통하기 위한 저장소(Repository) 주입
